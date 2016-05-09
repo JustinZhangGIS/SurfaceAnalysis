@@ -1,0 +1,139 @@
+html, body {
+    padding     : 0;
+    margin      : 0;
+    width       : 100%;
+    height      : 100%;
+    font-family : Segoe UI, Helvetica, sans-serif;
+    overflow    : hidden;
+}
+
+.esriRTL label {
+    /*Example of a rule that will be applied if the app is viewed in a browser with a RTL locale like Hebrew or Arabic.*/
+}
+
+/* MAIN APP MESSAGES =========================================================== */
+.app-error .loading-message {
+    background  : url(../images/error.png) no-repeat top center;
+    padding-top : 60px;
+    width       : 100%;
+    position    : absolute;
+    z-index     : 2;
+    top         : 40%;
+    left        : 0;
+    text-align  : center;
+}
+
+.message-node {
+    position         : absolute;
+    top              : 30%;
+    z-index          : 99;
+    width            : 100%;
+    padding          : 40px;
+    text-align       : center;
+    font-size        : 2em;
+    background-color : rgba(125, 125, 125, 0.8);
+}
+
+.message-node .small-text {
+    padding        : 5px !important;
+    font-size      : smaller !important;
+    display        : table-cell;
+    vertical-align : middle;
+}
+
+.message-node span {
+    color       : #fff;
+    text-shadow : 1px 1px 0 #222;
+}
+
+.error-node span {
+    color : darkred;
+}
+
+/* MAIN APP MESSAGES =========================================================== */
+
+#slides-pane {
+    z-index  : 99;
+    position : absolute;
+    top      : 60px;
+    right    : 15px;
+    width    : 230px;
+}
+
+#slides-pane .dgrid {
+    border     : none !important;
+    max-height : 725px;
+    overflow-y : auto;
+}
+
+#slides-pane .dgrid-scroller {
+    overflow-x : hidden;
+}
+
+#slides-pane .slide-item {
+    cursor     : pointer;
+    text-align : center;
+    margin     : 5px 0;
+    padding    : 5px;
+    /*border-radius : 4px;*/
+    border     : solid 1px transparent;
+    transition : background-color 0.5s;
+}
+
+#slides-pane .slide-item:hover {
+    background-color : #eee;
+    border-color     : #ccc;
+    transition       : background-color 0.5s;
+}
+
+#slides-pane .dgrid-selected,
+#slides-pane .slide-item:active {
+    background-color : #fff !important;
+    border-color     : #666 !important;
+}
+
+#slides-pane .slide-title {
+    font-size : smaller;
+}
+
+#slides-pane .no-data-message {
+    color       : #888;
+    text-align  : center;
+    padding-top : 40px;
+    font-size   : 1.25em;
+    font-style  : italic;
+}
+
+#main-container {
+    width  : 100%;
+    height : 100%;
+}
+
+#main-top-pane {
+    border-bottom : solid 6px #7D7D7D;
+}
+
+#app-title {
+    font-size : 21pt;
+}
+
+#app-snippet {
+    color      : #888;
+    font-style : italic;
+}
+
+#main-left-pane {
+    width : 200px;
+}
+
+#scene-node {
+    padding : 0;
+}
+
+#tools-pane {
+    z-index  : 99;
+    position : absolute;
+    top      : 15px;
+    left     : 90px;
+    width    : auto !important;
+}

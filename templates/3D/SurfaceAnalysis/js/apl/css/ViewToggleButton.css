@@ -1,0 +1,37 @@
+
+.view-toggle-button * {
+  outline : none !important;
+}
+
+.view-toggle-button .dijitButtonNode {
+  border-color : transparent;
+  /*border-radius : 3px;*/
+  margin-right : 3px;
+  margin-left  : 3px;
+}
+
+.view-toggle-button .dijitButtonText {
+  /**/
+}
+
+.view-toggle-button.dijitHover .dijitButtonNode {
+  border-color : #999;
+}
+
+.view-toggle-button.dijitChecked .dijitButtonNode {
+  background-color : #999;
+  border-color     : #444;
+}
+
+.view-toggle-button.dijitChecked .dijitButtonText {
+  color : #fff
+}
+
+.view-toggle-button-description {
+  margin     : 5px;
+  padding    : 10px;
+  color      : #fff;
+  background : #888;
+  border     : solid 2px #fff;
+  max-width  : 450px;
+}

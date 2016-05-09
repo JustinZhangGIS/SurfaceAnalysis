@@ -1,0 +1,38 @@
+
+.viewshed-view-tool {
+  /*...*/
+}
+
+.viewshed-view-tool .viewshed-view-tool-icon {
+  width      : 16px;
+  height     : 16px;
+  margin     : 5px;
+  background : url(../images/Viewshed32_gray.png) no-repeat center / contain;
+}
+
+.viewshed-view-toolChecked .viewshed-view-tool-icon {
+  background-image : url(../images/Viewshed32_d.png);
+}
+
+.viewshed-view-tool-options-pane .dgrid {
+  max-width : 480px;
+  border    : none;
+}
+
+.viewshed-view-tool-options-pane .field-value {
+  width      : 150px;
+  text-align : center;
+}
+
+.viewshed-view-tool-options-pane .results-label {
+  margin     : 10px 0;
+  padding    : 10px;
+  background : #eee;
+  font-size  : 13pt;
+  text-align : center;
+  box-shadow : 1px 1px 3px #ccc;
+}
+
+.viewshed-view-tool-options-pane .cant-edit {
+  color : #999;
+}

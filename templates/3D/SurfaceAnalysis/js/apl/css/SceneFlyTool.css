@@ -1,0 +1,15 @@
+
+.sceneFly-view-tool {
+    /**/
+}
+
+.sceneFly-view-tool .sceneFly-view-tool-icon {
+    width      : 16px;
+    height     : 16px;
+    margin     : 5px;
+    background : url(../images/3DFlyTool16_gray.png) no-repeat center / contain;
+}
+
+.sceneFly-view-toolChecked .sceneFly-view-tool-icon {
+    background-image : url(../images/3DFlyTool16.png);
+}

@@ -1,0 +1,29 @@
+
+.los-view-tool {
+    /**/
+}
+
+.los-view-tool .los-view-tool-icon {
+    width      : 16px;
+    height     : 16px;
+    margin     : 5px;
+    background : url(../images/LineOfSight16_gray.png) no-repeat center / contain;
+}
+
+.los-view-toolChecked .los-view-tool-icon {
+    background-image : url(../images/LineOfSight16.png);
+}
+
+.los-view-tool-options-pane .dgrid {
+    max-width : 480px;
+    border    : none;
+}
+
+.los-view-tool-options-pane .field-value {
+    width      : 150px;
+    text-align : center;
+}
+
+.los-view-tool-options-pane .cant-edit {
+    color : #999;
+}

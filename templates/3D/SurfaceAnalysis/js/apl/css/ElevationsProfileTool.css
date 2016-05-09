@@ -1,0 +1,32 @@
+
+.profile-view-tool {
+    /**/
+}
+
+.profile-view-tool .profile-view-tool-icon {
+    width      : 16px;
+    height     : 16px;
+    margin     : 5px;
+    background : url(../images/ProfileGraphCreate16_gray.png) no-repeat center / contain;
+}
+
+.profile-view-toolChecked .profile-view-tool-icon {
+    background-image : url(../images/ProfileGraphCreate16.png);
+}
+
+.profile-chart-node {
+    z-index    : 99;
+    position   : absolute;
+    bottom     : 16px;
+    right      : 0;
+    width      : 100%;
+    height     : 200px;
+    margin     : 0 auto 0 auto;
+    opacity    : 0.8;
+    transition : opacity 1s;
+}
+
+.profile-chart-node:hover {
+    opacity    : 1.0;
+    transition : opacity 1s;
+}
